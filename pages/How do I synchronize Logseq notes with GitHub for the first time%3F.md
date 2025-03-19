@@ -19,7 +19,10 @@
 		- origin  https://github.com/<user>/<repo>.git (fetch)
 		  id:: 67db4a41-f143-4b8e-8ebe-b8387d485db5
 		  origin  https://github.com/<user>/<repo>.git (push)
-	-
+- Renomeie a branch atual para `main`, forçando a alteração mesmo que uma branch chamada `main` já exista no repositório local, sobrescrevendo-a: `git branch -M main`.
+- Envie os commits da branch `main` local para o repositório remoto configurado como `origin`. 
+  `git push -u origin main`
+-
 -
 -
 -
