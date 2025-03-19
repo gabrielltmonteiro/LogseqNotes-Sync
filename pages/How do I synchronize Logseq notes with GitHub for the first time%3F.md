@@ -1,0 +1,14 @@
+- [**shell**] Vá até a pasta do Logseq `cd logseq/path`
+	- **Alternativa**: Exclua o arquivo .git `rm .git`, antes de iniciar o repositório
+- Inicie o Repositório `git init`
+-
+- [**logseq**] Desmarque a opção de *Ativar confirmação automática do Git*o commit automático *enable git autocommit*
+-
+- [**shell**]Adicione *tracked files* à *Stage*, `git add .`
+- Verifique o que está em *Stage* `git status`
+	- **Alternativa**: Adicione credenciais Globais `it config --global user.email "you@example.com"` e ` git config --global user.name "Your Name"`
+- Dar o primeiro *commit* `git commit -m "init"`
+- Verificar os *logs* dos *commits*, `git log`
+-
+-
+-
