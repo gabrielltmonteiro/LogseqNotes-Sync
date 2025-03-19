@@ -1,1 +1,2 @@
-- []Vá até a pasta do Logseq
+- [shell] Vá até a pasta do Logseq
+-
