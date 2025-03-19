@@ -1,1 +1,1 @@
-- na pasta do
+- Vá até a pasta
