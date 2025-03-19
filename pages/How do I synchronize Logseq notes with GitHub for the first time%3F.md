@@ -1,17 +1,25 @@
+- [**logseq**] Desmarque a opção *`Ativar confirmação automática do Git`* o mesmo que *`Enable Git auto commit`*
+-
 - [**shell**] Vá até a pasta do Logseq `cd logseq/path`
 	- **Caso exista um arquivo .git**: Exclua o arquivo .git com `rm .git`, antes de iniciar o repositório
--
-- [**logseq**] Desmarque a opção *Ativar confirmação automática do Git* ou *Enable Git auto commit*
--
 - Inicie o Repositório `git init`
-- [**shell**] Adicione *tracked files* e arquivos novos à área de *Stage*, `git add .`, o que também marca arquivos deletados para a remoção no próximo commit.
+- Adicione *tracked files* e arquivos novos à área de *Stage*, `git add .`, o que também marca arquivos deletados para a remoção no próximo commit.
 - Verifique o que está em *Stage* `git status`
 	- **Caso não haja credenciais**: Adicione credenciais Globais `it config --global user.email "you@example.com"` e ` git config --global user.name "Your Name"`
 - Dê o primeiro *commit* `git commit -m "init"`
-- Verificar os *logs* dos *commits*, `git log`
+- Verifique os *logs* dos *commits* (registros das alterações), `git log`
 	- **Caso não esteja instalado**: Instale o `gh` com `sudo apt install` e senha
-- Crie o repositório no GitHub (remoto) `gh repo create <user>/<LogseqNotesSync> --public`
-- Abrir repositório `open github.com/<user>/<repo> &`
-- git remote add origin https://github.com/gabrielltmonteiro/LogseqNotesSync.git
 -
-- é usado para adicionar um repositório remoto chamado `origin` ao repositório Git local, associando-o ao URL especificado.
+- [**logseq**] Marcar *`Enable Git auto commit`*, definir o tempo para o auto commit (em segundos) e *`Git commit on window close`*, para ativar commmit automático, além de ativar commit ao fechar janela.
+-
+- [**shell**] Crie o repositório no GitHub (remoto) `gh repo create <user>/<LogseqNotesSync> --public`
+	- Abra o repositório para validar `open github.com/<user>/<repo> &`
+- Conecte o repositório remoto (chamado `origin`) ao seu repositório Git local, associando-o ao URL especificado `git remote add origin https://github.com/<user>/<repo>.git`. Isso permite que você sincronize suas alterações locais com o repositório remoto no GitHub.
+	- Valide a conexão entre os repositórios Local e Remoto, com o comando `git remote -v`, que deve retornar
+		- origin  https://github.com/<user>/<repo>.git (fetch)
+		  id:: 67db4a41-f143-4b8e-8ebe-b8387d485db5
+		  origin  https://github.com/<user>/<repo>.git (push)
+	-
+-
+-
+-
