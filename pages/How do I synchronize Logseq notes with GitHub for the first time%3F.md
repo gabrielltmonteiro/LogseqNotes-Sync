@@ -12,4 +12,6 @@
 	- **Caso não esteja instalado**: Instale o `gh` com `sudo apt install` e senha
 - Crie o repositório no GitHub (remoto) `gh repo create <user>/<LogseqNotesSync> --public`
 - Abrir repositório `open github.com/<user>/<repo> &`
+- git remote add origin https://github.com/gabrielltmonteiro/LogseqNotesSync.git
 -
+- é usado para adicionar um repositório remoto chamado `origin` ao repositório Git local, associando-o ao URL especificado.
