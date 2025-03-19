@@ -1,14 +1,15 @@
 - [**shell**] Vá até a pasta do Logseq `cd logseq/path`
-	- **Alternativa**: Exclua o arquivo .git `rm .git`, antes de iniciar o repositório
+	- **Caso exista um arquivo .git**: Exclua o arquivo .git com `rm .git`, antes de iniciar o repositório
+-
+- [**logseq**] Desmarque a opção *Ativar confirmação automática do Git* ou *Enable Git auto commit*
+-
 - Inicie o Repositório `git init`
--
-- [**logseq**] Desmarque a opção de *Ativar confirmação automática do Git*o commit automático *enable git autocommit*
--
-- [**shell**]Adicione *tracked files* à *Stage*, `git add .`
+- [**shell**] Adicione *tracked files* e arquivos novos à área de *Stage*, `git add .`, o que também marca arquivos deletados para a remoção no próximo commit.
 - Verifique o que está em *Stage* `git status`
-	- **Alternativa**: Adicione credenciais Globais `it config --global user.email "you@example.com"` e ` git config --global user.name "Your Name"`
-- Dar o primeiro *commit* `git commit -m "init"`
+	- **Caso não haja credenciais**: Adicione credenciais Globais `it config --global user.email "you@example.com"` e ` git config --global user.name "Your Name"`
+- Dê o primeiro *commit* `git commit -m "init"`
 - Verificar os *logs* dos *commits*, `git log`
--
--
+	- **Caso não esteja instalado**: Instale o `gh` com `sudo apt install` e senha
+- Crie o repositório no GitHub (remoto) `gh repo create <user>/<LogseqNotesSync> --public`
+- Abrir repositório `open github.com/<user>/<repo> &`
 -
