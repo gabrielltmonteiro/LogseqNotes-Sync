@@ -1,2 +1,2 @@
-- [**shell**] Vá até a pasta do Logseq `cd `
+- [**shell**] Vá até a pasta do Logseq `cd logseq/path`
 -
