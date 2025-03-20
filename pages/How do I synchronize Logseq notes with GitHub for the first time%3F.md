@@ -16,13 +16,14 @@
 	- Abra o repositório para validar `open github.com/<user>/<repo> &`
 - Conecte o repositório remoto (chamado `origin`) ao seu repositório Git local, associando-o ao URL especificado `git remote add origin https://github.com/<user>/<repo>.git`. Isso permite que você sincronize suas alterações locais com o repositório remoto no GitHub.
 	- Valide a conexão entre os repositórios Local e Remoto, com o comando `git remote -v`, que deve retornar
-		- origin  https://github.com/<user>/<repo>.git (fetch)
-		  id:: 67db4a41-f143-4b8e-8ebe-b8387d485db5
+		- ```shell
+		  > gh repo create <user>/<LogseqNotesSync> --public
+		  #return
+		  origin  https://github.com/<user>/<repo>.git (fetch)
 		  origin  https://github.com/<user>/<repo>.git (push)
-- Renomeie a branch atual para `main`, forçando a alteração mesmo que uma branch chamada `main` já exista no repositório local, sobrescrevendo-a: `git branch -M main`.
-- Envie os commits da branch `main` local para o repositório remoto configurado como `origin`. 
-  `git push -u origin main`
--
+		  ```
+- Renomeie a branch atual para `main`, forçando a alteração mesmo que uma branch de mesmo nome, também chamada `main`, já exista no repositório local, sobrescrevendo-a: `git branch -M main`.
+- Com o comando `git push -u origin main` empurra os commits da branch `main` local para o repositório remoto configurado como `origin` e define `origin/main` como a branch upstream para facilitar futuros pushes e pulls.
 -
 -
 -
