@@ -1,6 +1,6 @@
 ## How to sync after configuring a branch upstream this repository?
 - Execute uma linha de cada vez: 
-  Navegue mudando o diretório até Pretty Notes `cd Documentos/Pretty\ Notes/`. Mandar arquivos para *staging* com `git add .` . Manda de *staging* para o repositório local `git commit -m ""`, mais precisamente para o histórico de commits, conhecido como o *repositório Git*. Verifica o status atual do repositório local `git status`. Enviar as alterações feitas no repositório local para o repositório remoto `git push`. 
+  Navegue mudando o diretório até Pretty Notes **`cd Documentos/Pretty\ Notes/`**. Mandar arquivos para *staging* com **`git add .`** . Manda de *staging* para o repositório local **`git commit -m ""`**, mais precisamente para o histórico de commits, conhecido como o *repositório Git*. Verifica o status atual do repositório local **`git status`**. Enviar as alterações feitas no repositório local para o repositório remoto **`git push`**. 
   ```bash
   cd ~/Documentos/Pretty\ Notes/
   git add .
@@ -38,10 +38,10 @@
 		  origin  https://github.com/<user>/<repo>.git (push)
 		  ```
 	- Renomeie a Branch atual para `main`, forçando a alteração mesmo que uma branch de mesmo nome já exista no repositório local, isso irá sobrescreve-la: `git branch -M main`.
-		- **Caso o repositório remoto tenha sido configurado incorretamente, como com o URL errado, por exemplo. Caso o URL tenha mudado, seja por conta de o repositório ter sido movido ou renomeado**. Caso queira vincular o repositório local a um repositório remoto diferente.: deve remover `origin` para permitir uma configuração limpa, `git remote remove origin`
+		- **Caso o repositório remoto tenha sido configurado incorretamente, como com o URL errado, por exemplo. Caso o URL tenha mudado, seja por conta de o repositório ter sido movido ou renomeado**. Caso queira vincular o repositório local a um repositório remoto diferente.: deve remover `origin` para permitir uma configuração limpa, **`git remote remove origin`**
 			- Havia configurado errado e
-	- Com o comando `git push -u origin main` empurra os commits da branch `main` local para o repositório remoto configurado como `origin` e define `origin/main` como a branch upstream para facilitar futuros pushes e pulls.
+	- Com o comando **`git push -u origin main`** empurra os commits da branch `main` local para o repositório remoto configurado como `origin` e define `origin/main` como a branch upstream para facilitar futuros pushes e pulls.
 	- Ao configurar uma *branch upstream*, ela facilita os próximos comandos de push e pull, de modo que não se faz mais necessário especificar o repositório (`origin`), tampouco a branch (`main`).
-		- **Antes de  configurar uma branch upstream**: `git push origin main` ou `git pull origin main`
-		- **Depois de  configurar uma branch upstream**: Apenas`git push` ou `git pull`
+		- **Antes de  configurar uma branch upstream**: **`git push origin main`** ou **`git pull origin main`**
+		- **Depois de  configurar uma branch upstream**: Apenas**`git push`** ou **`git pull`**
 - Oque ocorre porque o Git sabe automaticamente qual *branch remota* está vinculada à sua *branch local*, permitindo uma comunicação mais fluida entre os repositórios. Isso torna seu fluxo de trabalho mais rápido.
