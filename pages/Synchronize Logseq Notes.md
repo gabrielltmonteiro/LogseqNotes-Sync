@@ -25,21 +25,23 @@
 	- [**logseq**] Marcar *`Enable Git auto commit`*, definir o tempo para o auto commit (em segundos) e *`Git commit on window close`*, para ativar commmit automático, além de ativar commit ao fechar janela.
 	-
 	- [**shell**] Crie um repositório público no GitHub (remoto) `gh repo create <repository> --public`
-		- Abra o repositório para validar `open github.com/<user>/<repo>`
-	-
-	- Conecte o repositório remoto (chamado `origin`) ao seu repositório Git local, associando-o ao URL especificado `git remote add origin https://github.com/<user>/<repo>.git`. Isso permite que você sincronize suas alterações locais com o repositório remoto no GitHub.
-	-
-		- Valide a conexão entre os repositórios Local e Remoto, com o comando `git remote -v`, que deve retornar
-			- ```shell
-			  >
-			  #return
-			  origin  https://github.com/<user>/<repo>.git (fetch)
-			  origin  https://github.com/<user>/<repo>.git (push)
-			  ```
-		- Renomeie a branch atual para `main`, forçando a alteração mesmo que uma branch de mesmo nome, também chamada `main`, já exista no repositório local, sobrescrevendo-a: `git branch -M main`.
-		- Com o comando `git push -u origin main` empurra os commits da branch `main` local para o repositório remoto configurado como `origin` e define `origin/main` como a branch upstream para facilitar futuros pushes e pulls.
-		- Ao configurar uma branch upstream, ela facilita os próximos comandos de push e pull, de modo que não se faz mais necessário especificar o repositório (`origin`), tampouco a branch (`main`).
-			- **Antes de  configurar uma branch upstream**: `git push origin main` ou `git pull origin main`
-			- **Depois de  configurar uma branch upstream**: Apenas`git push` ou `git pull`
+		- **Caso tenha criado o repositório local primeiro e queira vinculá-lo a um repositório remoto criado manualmente no GitHub**: Conecte o repositório remoto (chamado `origin`) ao seu repositório Git local, associando-o ao URL especificado `git remote add origin https://github.com/<user>/<repo>.git`. Isso permite que você sincronize suas alterações locais com o repositório remoto no GitHub.
+		  id:: 67dbbac5-9d2d-453b-80a5-e087be599fa4
+		- **Porém**, normalmente o `gh repo create` já configura automaticamente o repositório remoto como `origin`, eliminando a necessidade de `git remote add origin`.
+		  id:: 67dbbe4d-b681-4465-8033-9b82ddad793a
+	- Abra o repositório para validar `open github.com/<user>/<repo>`
+	- Valide a conexão entre os repositórios Local e Remoto, com o comando `git remote -v`, que deve retornar:
+		- ```shell
+		  > git remote -v
+		  #return
+		  origin  https://github.com/<user>/<repo>.git (fetch)
+		  origin  https://github.com/<user>/<repo>.git (push)
+		  ```
+	- Renomeie a Branch atual para `main`, forçando a alteração mesmo que uma branch de mesmo nome já exista no repositório local, isso irá sobrescreve-la: `git branch -M main`.
+		- **Caso o repositório remoto tenha sido configurado incorretamente, como com o URL errado, por exemplo. Caso o URL tenha mudado, seja por conta de o repositório ter sido movido ou renomeado**. Caso queira vincular o repositório local a um repositório remoto diferente.: deve remover `origin` para permitir uma configuração limpa, `git remote remove origin`
+			- Havia configurado errado e
+	- Com o comando `git push -u origin main` empurra os commits da branch `main` local para o repositório remoto configurado como `origin` e define `origin/main` como a branch upstream para facilitar futuros pushes e pulls.
+	- Ao configurar uma *branch upstream*, ela facilita os próximos comandos de push e pull, de modo que não se faz mais necessário especificar o repositório (`origin`), tampouco a branch (`main`).
+		- **Antes de  configurar uma branch upstream**: `git push origin main` ou `git pull origin main`
+		- **Depois de  configurar uma branch upstream**: Apenas`git push` ou `git pull`
 - Oque ocorre porque o Git sabe automaticamente qual *branch remota* está vinculada à sua *branch local*, permitindo uma comunicação mais fluida entre os repositórios. Isso torna seu fluxo de trabalho mais rápido.
--
