@@ -1,0 +1,14 @@
+- Ajuste da **área master** no layout de mosaico:
+	- **Decrease master area size**: Reduz o tamanho total da área master, que é a região principal onde as janelas prioritárias são exibidas.
+	- **Decrease master area window count**: Diminui o número de janelas que podem ser exibidas simultaneamente na área master.
+	- **Decrease master area window width**: Reduz a largura das janelas dentro da área master.
+	- **Decrease master area window height**: Reduz a altura das janelas dentro da área master.
+- **Focus Bottom Window**: Move o foco para a janela localizada abaixo da janela atual, no layout.
+- **Focus Left Window**: Move o foco para a janela localizada à esquerda da janela atual, no layout.
+- **Focus Next Window**: Move o foco para a próxima janela, seguindo a ordem de navegação definida (geralmente no sentido horário ou sequencial).
+- **Focus Previous Window**: Move o foco para a janela anterior, seguindo a ordem oposta à navegação padrão.
+- **Focus Right Window**: Move o foco para a janela localizada à direita da janela atual, no layout.
+- **Focus Upper Window**: Move o foco para a janela localizada acima da janela atual, no layout.
+-
+-
+-

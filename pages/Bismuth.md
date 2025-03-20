@@ -1,0 +1,2 @@
+- O **Bismuth** é uma extensão ou complemento que trabalha sobre o [[KWin]] para adicionar funcionalidades específicas de *tiling* (mosaico), ou seja, a capacidade de organizar janelas automaticamente em layouts eficientes. O Bismuth depende do KWin para funcionar, de modo que o KWin fornece a base, enquanto o Bismuth expande suas capacidades.
+- Existem diversas opções de [atalhos configuráveis para utilizar o Bismuth]([[Bismuth: Atalhos]]).
