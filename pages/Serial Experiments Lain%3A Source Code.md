@@ -38,6 +38,20 @@
 - #### redit
 - [LainOSdevelopers](https://www.reddit.com/r/LainOSdevelopers/) - Lain Operating System
 - [Lain](https://www.reddit.com/r/Lain/)
-- #### GitHub
+- #### LainOS
+- First build 1.0
+- Project until 2020 is nothing more than a BSD theme with poorly written code
+- ![Screenshot_20250320_144820.png](../assets/Screenshot_20250320_144820_1742492914775_0.png)
 -
+- #### The LainOS Project
+- New LainOS project
+- ![](https://raw.githubusercontent.com/The-LainOS-Project/.github/main/rainbowlain.png)
+- **youtube**
+  {{video https://youtu.be/xmkxAPQZzMU}}
+- **github main developers**
+- [LainOS.iso](https://github.com/The-LainOS-Project/lainos-iso)
+- [The LainOS Project](https://github.com/The-LainOS-Project)
+- **Developers** of the new LainOS project
+- [amnesia1337](https://github.com/amnesia1337)
+- [Axel-DaMage](https://github.com/Axel-DaMage)
 -
