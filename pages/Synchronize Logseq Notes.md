@@ -5,8 +5,8 @@ title:: Synchronize Logseq Notes
 	- [**shell**] Vá até a pasta do Logseq `cd logseq/path`
 		- **Caso exista um arquivo .git**: Exclua o arquivo .git com `rm .git`, antes de iniciar o repositório
 	- Inicie o Repositório `git init`
-	- Adicione *tracked files* e arquivos novos à área de *Stage*, `git add .`, o que também marca arquivos deletados para a remoção no próximo commit.
-	- Verifique o que está em *Stage* `git status`
+	- Adicione *tracked files* e arquivos novos à área de *Staging*, `git add .`, o que também marca arquivos deletados para a remoção no próximo commit.
+	- Verifique o que está em *Staging* `git status`
 		- **Caso não haja credenciais**: Adicione credenciais Globais `it config --global user.email "you@example.com"` e ` git config --global user.name "Your Name"`
 	- Dê o primeiro *commit* `git commit -m "init"`
 	- Verifique os *logs* dos *commits* (registros das alterações), `git log`
@@ -32,5 +32,13 @@ title:: Synchronize Logseq Notes
 - Oque ocorre porque o Git sabe automaticamente qual *branch remota* está vinculada à sua *branch local*, permitindo uma comunicação mais fluida entre os repositórios. Isso torna seu fluxo de trabalho mais rápido.
 -
 - ## How to sync after configuring a branch upstream this repository?
--
+- Execute uma linha de cada vez: 
+  Navegue mudando o diretório até Pretty Notes `cd Documentos/Pretty\ Notes/`. Mandar arquivos para *staging* com `git add .`. Manda de *staging* para repositório local `git commit -m ""`, mais precisamente para o histórico de commits, conhecido como o *repositório Git*. Verifica o status atual do repositório local `git status`. Enviar as alterações feitas no repositório local para o repositório remoto `git push`. 
+  ```bash
+  cd Documentos/Pretty\ Notes/
+  git add .
+  git commit -m ""
+  git status
+  git push
+  ```
 -
