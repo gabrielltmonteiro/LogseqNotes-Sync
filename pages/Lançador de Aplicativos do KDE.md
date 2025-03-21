@@ -1,0 +1,2 @@
+- O **lançador de aplicativos** do **KDE no Ubuntu** (Kubuntu) é o **Kicker**, também chamado de **Application Launcher**.
+-
