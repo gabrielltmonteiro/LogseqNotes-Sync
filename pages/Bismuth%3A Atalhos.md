@@ -1,5 +1,45 @@
-- **Mover Janela Ativa para Master** Area:
-	- **Push Active Window to Master Area**: Move a janela atualmente ativa diretamente para a **área master** do layout, tornando-a a janela prioritária ou principal.
+# Principais
+- Manter redundância.
+- **Alternar Layouts:**
+  Previous **`ALT-`**     Next **`ALT=`**
+  Monocle **`META+1`**     Floating **`META+2`**     Three-Column **`META+3`**     Quarter **`META+`**    Tile **`META+5`**
+-
+- **Mover Foco**
+  Direita **`META+L`**     Baixo **`META+J`**     Cima **`META+K`**     Esquerda **`META+H`**
+-
+- **Mover Janelas:**
+  Direita **`META+SHIFT+L`**     Baixo **`META+SHIFT+J`**     Cima **`META+SHIFT+K`**     Esquerda **`META+SHIFT+H`**
+-
+- **Janelas no Layout**
+  Diminuir quantidade de janelas **`META+]`**     Aumentar  **``**
+-
+- **Manter Janela**
+  Acima **`META+CTRL+↑`**     Abaixo **`META+CTRL+↓`**
+-
+- **Opacidade da Janela**
+  Diminuir opacidade **`META+<`**     Aumentar opacidade **`META+>`**
+-
+- **Fechar Janela**
+  **`ALT+F4`**
+-
+- **Redimensionar Janelas**
+  Aumentar Altura     **`META+CTRL+H`**      Aumentar Largura **`META+CTRL+L`**
+  Diminuir Altura        **`META+ALT+H`**        Diminuir Largura **`META+ALT+L`**
+-
+- **Ocultar Borda da Janela**
+  **`META+CTRL+SHIFT+H`**
+-
+- **Navegar entre Áreas de Trabalho**
+  Área 1 **`META+F1`**     Área 2 **`META+F2`**     Área 3 **`META+F3`**     Área 4 **`META+F4`**     Área 5 **`META+F5`**
+  Área da Esquerda **`META+CTRL+←`**     Área da Direita **`META+CTRL+→`**
+-
+- **Mover Janela entre Áreas de Trabalho**
+  Área da Esquerda **`META+CTRL+SHIFT+←`**     Área da Direita **`META+CTRL+SHIFT+→`**
+-
+- **Espiar Área de Trabalho**
+  **`META+D`**
+-
+- ## Layouts
 - **Alternar Layouts**:
 	- **Switch to the Next Layout**: Alterna para o próximo layout disponível na sequência, permitindo testar ou usar outro tipo de organização para as janelas.
 	- **Switch to the Previous Layout**: Alterna para o layout anterior na sequência de layouts disponíveis.
@@ -17,6 +57,7 @@
 -
 -
 - **Mover Janelas** dentro do layout de mosaico de forma eficiente e organizada:
+	- **Push Active Window to Master Area**: Move a janela atualmente ativa diretamente para a **área master** do layout, tornando-a a janela prioritária ou principal.
 	- **Move Window Right**: Move a janela atual para a posição à direita dentro do layout definido.
 	- **Move Window Left**: Move a janela atual para a posição à esquerda dentro do layout definido.
 	- **Move Window Up**: Move a janela atual para a posição acima no layout.
