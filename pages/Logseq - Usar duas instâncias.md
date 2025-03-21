@@ -15,6 +15,7 @@
 		  ```
 		- ![Screenshot_20250321_202749.png](../assets/Screenshot_20250321_202749_1742599731056_0.png)
 		- #### **Equivalente a rodar cada um normalmente e definir posteriormente:**
+			- Um de cada vez!
 			- **Rodar logseq em `snap`**
 			  ```Bash
 			  snap run logseq
