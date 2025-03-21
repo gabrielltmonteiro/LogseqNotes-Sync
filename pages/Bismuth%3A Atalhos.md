@@ -11,7 +11,7 @@
   Direita **`META+SHIFT+L`**     Baixo **`META+SHIFT+J`**     Cima **`META+SHIFT+K`**     Esquerda **`META+SHIFT+H`**
 -
 - **Janelas no Layout**
-  Diminuir quantidade de janelas **`META+]`**     Aumentar  **``**
+  Diminuir quantidade de janelas **`META+]`**     Aumentar  **`META+[`**
 -
 - **Manter Janela**
   Acima **`META+CTRL+↑`**     Abaixo **`META+CTRL+↓`**
