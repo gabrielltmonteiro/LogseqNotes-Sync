@@ -5,5 +5,5 @@
 	  flatpak list #busque por Nome=Logseq, Inc.
 	  ```
 - Se (instalado em flatpak e snap)
-	-
+	- id:: 67ddf0c0-8c49-437d-b98b-4a93157cd02e
 -
