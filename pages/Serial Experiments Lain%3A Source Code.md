@@ -26,10 +26,10 @@
   ![File:System console source.jpg](https://lain.wiki/images/thumb/e/e9/System_console_source.jpg/800px-System_console_source.jpg)
 -
 - ### **Layer 07**
-- In [Layer 07](https://lain.wiki/wiki/Layer_07), during class, Lain is surreptitiously working on her **[HandiNAVI](https://lain.wiki/wiki/HandiNAVI)** instead of paying attention. For a few seconds, her NAVI's screen is visible, and we can see her rapidly scroll through two files of Common Lisp source code, named **CRowView.CL** and **Afx-n-nPrv-View.CL**. Text from both of the files are visible in the [game](https://lain.wiki/wiki/Serial_Experiments_Lain_(game)) as well, in the video file Dc1023, "communication."[[1]](http://www.nicovideo.jp/watch/sm685015)**
-	- **CRowView.CL** contains code for John Conway's Game of Life.[[2]](http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/lang/lisp/code/fun/life.cl) The staff probably selected this code because of its seemingly [omnipotent](https://lain.wiki/wiki/God) implications (i.e. creating worlds and life).
+- In [Layer 07](https://lain.wiki/wiki/Layer_07), during class, Lain is surreptitiously working on her **[HandiNAVI](https://lain.wiki/wiki/HandiNAVI)** instead of paying attention. For a few seconds, her NAVI's screen is visible, and we can see her rapidly scroll through two files of Common Lisp source code, named **CRowView.CL** and **Afx-n-nPrv-View.CL**. Text from both of the files are visible in the [game](https://lain.wiki/wiki/Serial_Experiments_Lain_(game)) as well, in the video file Dc1023, "communication."(http://www.nicovideo.jp/watch/sm685015)**
+	- **CRowView.CL** contains code for John Conway's Game of Life. http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/lang/lisp/code/fun/life.cl The staff probably selected this code because of its seemingly [omnipotent](https://lain.wiki/wiki/God) implications (i.e. creating worlds and life).
 	  ![File:Life.jpg](https://lain.wiki/images/5/5e/Life.jpg)
-	- **Afx-n-nPrv-View.CL** is the source for a code walker.[[3]](http://ftp.sunet.se/pub/lang/lisp/code/codewalk/walk/new_walk.cl) This was probably included for its tongue-in-cheek reference to [Apple](https://lain.wiki/wiki/Apple_Inc._References) in a section of code that is commented out.
+	- **Afx-n-nPrv-View.CL** is the source for a code walker. http://ftp.sunet.se/pub/lang/lisp/code/codewalk/walk/new_walk.cl This was probably included for its tongue-in-cheek reference to [Apple](https://lain.wiki/wiki/Apple_Inc._References) in a section of code that is commented out.
 	  ![File:Walker.jpg](https://lain.wiki/images/a/ad/Walker.jpg)
 	-
 - #### FanPages
