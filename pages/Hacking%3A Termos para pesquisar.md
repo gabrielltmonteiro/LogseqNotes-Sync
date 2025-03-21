@@ -1,0 +1,26 @@
+- Adversary
+- Bug Bounty
+- Command & Control (C2)
+- Data Breach
+- Exploit
+- Firewall
+- Grey Hat Hacker
+- Hashing
+- Indicators of Comprimise (IOC)
+- Jailbreaking
+- Keylogger
+- Lateral Movement
+- Malware
+- Network Sniffing
+- OSINT (Open Source Intelligence)
+- Phishing
+- Quishing (QR Code Phishing)
+- Ransonware
+- Social Engineering
+- Threat Intelligence
+- URL Spoofing
+- Vulnerability
+- Web Shell
+- XSS (Cross-site Scripting)
+- YARA Rules
+- Zaro-Day Vulnerability
